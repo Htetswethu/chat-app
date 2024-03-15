@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Application - Join</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to the Chat Application</h1>
+      <form id="joinForm" action="chat.html">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <label for="group">Choose a Room:</label>
+        <select id="group" name="room">
+          <option value="room1">Room 1</option>
+          <option value="room2">Room 2</option>
+          <!-- Add more groups as needed -->
+        </select>
+        <button type="submit">Join Room</button>
+      </form>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
